@@ -1,9 +1,8 @@
 import { useState } from "react";
-
 import Container from "@/components/Container";
 import BlogPost from "@/components/BlogPost";
 import { getAllFilesFrontMatter } from "@/lib/mdx";
-import FreeCodeCamp from "@/components/FreeCodeCampCard/FreeCodeCamp";
+
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("blog");

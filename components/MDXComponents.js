@@ -15,8 +15,6 @@ import HighlightBox from "@/components/HighlightBox";
 import StepCheck from "@/components/StepCheck";
 import Divider from "@/components/Divider";
 import Table from "@/components/Table";
-import VideoDemo from "./VideoDemo";
-import VideoComponent from "./VideoComponent";
 import Button from "./Button";
 
 const CustomLink = (props) => {
@@ -43,12 +41,10 @@ const MDXComponents = {
   StepLarge,
   StepCheck,
   Tweet,
-  VideoDemo,
   HighlightBox,
   Divider,
   Table,
   StepLargeCustom,
-  VideoComponent,
   Button,
 };
 

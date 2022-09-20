@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import * as gtag from "@/lib/gtag";
 
 import MDXComponents from "@/components/MDXComponents";
-import Chat from "@/components/Chat";
+
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -24,7 +24,6 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class">
       <MDXProvider components={MDXComponents}>
         <Component {...pageProps} />
-        <Chat />
       </MDXProvider>
     </ThemeProvider>
   );

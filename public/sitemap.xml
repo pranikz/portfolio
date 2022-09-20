@@ -1,124 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://manuarora.in/blog</loc>
+    <loc>https://pranikz.netlify.app/blog</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/boxshadows</loc>
+    <loc>https://pranikz.netlify.app/dashboard</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/dashboard</loc>
+    <loc>https://pranikz.netlify.app</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/feed.xml</loc>
+    <loc>https://pranikz.netlify.app/projects</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/freecodecamp</loc>
+    <loc>https://pranikz.netlify.app/test</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/freelance</loc>
+    <loc>https://pranikz.netlify.app/blog/ace-the-javascript-interview</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/links</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/projects</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/resources</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/test</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/tweets</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/ace-the-javascript-interview</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/blogging-platform-nextjs</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/build-your-own-covid-leads-portal</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/developer-portfolio-website</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/how-to-effectively-freelance</loc>
-  </url>
-
-  <url>
-    <loc>https://manuarora.in/blog/top-5-nextjs-resources</loc>
+    <loc>https://pranikz.netlify.app/blog/blogging-platform-nextjs</loc>
   </url>
 
   <url>
     <loc
-      >https://manuarora.in/snippets/firebase-auth-with-user-doc-firestore</loc
+      >https://pranikz.netlify.app/blog/build-your-own-covid-leads-portal</loc
     >
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/gradient-border</loc>
+    <loc>https://pranikz.netlify.app/blog/developer-portfolio-website</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/gradient-text</loc>
+    <loc>https://pranikz.netlify.app/blog/how-to-effectively-freelance</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/keyboard-events</loc>
+    <loc>https://pranikz.netlify.app/blog/top-5-nextjs-resources</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/loader</loc>
+    <loc
+      >https://pranikz.netlify.app/snippets/firebase-auth-with-user-doc-firestore</loc
+    >
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/moving-card</loc>
+    <loc>https://pranikz.netlify.app/snippets/gradient-border</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/navbar-effect</loc>
+    <loc>https://pranikz.netlify.app/snippets/gradient-text</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/razorpay</loc>
+    <loc>https://pranikz.netlify.app/snippets/keyboard-events</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/sendgrid</loc>
+    <loc>https://pranikz.netlify.app/snippets/loader</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/spotify</loc>
+    <loc>https://pranikz.netlify.app/snippets/moving-card</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/tailwind-card</loc>
+    <loc>https://pranikz.netlify.app/snippets/navbar-effect</loc>
   </url>
 
   <url>
-    <loc>https://manuarora.in/snippets/toast</loc>
+    <loc>https://pranikz.netlify.app/snippets/razorpay</loc>
+  </url>
+
+  <url>
+    <loc>https://pranikz.netlify.app/snippets/sendgrid</loc>
+  </url>
+
+  <url>
+    <loc>https://pranikz.netlify.app/snippets/spotify</loc>
+  </url>
+
+  <url>
+    <loc>https://pranikz.netlify.app/snippets/tailwind-card</loc>
+  </url>
+
+  <url>
+    <loc>https://pranikz.netlify.app/snippets/toast</loc>
   </url>
 </urlset>
