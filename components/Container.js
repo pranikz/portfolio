@@ -21,7 +21,6 @@ export default function Container(props) {
   const meta = {
     title: "Pratyush Mahapatra – Developer",
     description: `Full-Stack developer, JavaScript enthusiast and a Learner.`,
-    image: "https://pranikz.netlify.app/static/images/bannerprat.png",
     type: "website",
     ...customMeta,
   };
