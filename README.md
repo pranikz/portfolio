@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://pranikz.netlify.app/static/images/bannerprat.png" alt="Logo">
+    <img src="https://pranikz.netlify.app/static/images/bannerprat.jpg" alt="Logo">
   </p>
 
 This is my personal website. Here I write blogs, add code snippets, code live demos, and add resources for everybody else to look and refer.
