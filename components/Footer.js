@@ -30,6 +30,9 @@ export default function Footer() {
               Projects
             </a>
           </Link>
+          <ExternalLink href="https://pranikz.netlify.app/static/images/PratyushMResume.pdf">
+            Resume
+          </ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
           <ExternalLink href="https://github.com/pranikz">GitHub</ExternalLink>

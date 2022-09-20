@@ -19,9 +19,9 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Manu Arora – Developer, writer, creator.",
-    description: `Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.`,
-    image: "https://manuarora.in/static/images/banner.png",
+    title: "Pratyush Mahapatra – Developer",
+    description: `Full-Stack developer, JavaScript enthusiast and a Learner.`,
+    image: "https://pranikz.netlify.app/static/images/bannerprat.png",
     type: "website",
     ...customMeta,
   };
@@ -39,6 +39,10 @@ export default function Container(props) {
       name: "Projects",
       link: "/projects",
     },
+    {
+      name: "Resume",
+      link: "https://pranikz.netlify.app/static/images/PratyushMResume.pdf",
+    },
   ];
   const mobileLinks = [
     {
@@ -52,7 +56,11 @@ export default function Container(props) {
     {
       name: "Blog",
       link: "/blog",
-    }
+    },
+    {
+      name: "Resume",
+      link: "https://pranikz.netlify.app/static/images/PratyushMResume.pdf",
+    },
   ];
 
   return (

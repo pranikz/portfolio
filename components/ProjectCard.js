@@ -164,7 +164,7 @@ export default function ProjectCard({ title, description, href, icon, tags }) {
               </svg>
             </div>
           )}
-         
+
           {icon == "play" && (
             <div className="h-8 w-8 ml-2 mr-4">
               <span className="sr-only">Play Placeholdertech</span>

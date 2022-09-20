@@ -3,7 +3,6 @@ import Container from "@/components/Container";
 import BlogPost from "@/components/BlogPost";
 import { getAllFilesFrontMatter } from "@/lib/mdx";
 
-
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("blog");
 
@@ -34,7 +33,7 @@ export default function Blog({ posts }) {
 
   return (
     <Container
-      title="Blog – Manu Arora"
+      title="Blogs – Pratyush Mahapatra"
       description="Thoughts on the Software Development, Programming, Tech, Freelancing, Open Source and Memes"
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
@@ -46,7 +45,7 @@ export default function Blog({ posts }) {
             
             Use the search below to filter by title.`}
         </p>
-        Blogs coming sooner than you expect
+        Blogs coming sooner than you expect 🚀
       </div>
     </Container>
   );

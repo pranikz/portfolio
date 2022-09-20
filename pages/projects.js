@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 export default function projects() {
   return (
     <Container
-      title="Projects – Manu Arora"
+      title="Projects – Pratyush Mahapatra"
       description="Projects that I've built from scratch, upcoming projects, learned from courses and projects that I'm proud of."
       image="/avatar.jpg"
     >
@@ -51,10 +51,10 @@ export default function projects() {
           tags={["React", "TailwindCSS"]}
         />
         <ProjectCard
-          title="More projects coming soon.."
-          description="I get ideas all day 🙄, All of them are updated here as soon as I start working on them."
-          href="#"
-          icon="more"
+          title="BreastCancer Analysis"
+          description="The goal was to predict the 'severity' of the cancer by feeding to a Recurrent Neural Network 30 important characteristics(ex: radius_mean, texture_mean, perimeter_mean) variables. The are 30 independent variables (excluding the 'id' column) and one categorical dependent variable 'diagnosis'. I've decided not to perform Exploratory Data Analysis because, the main priority was to build a decent Recurrent Neural Network Classifier to predict the severity of the cancer."
+          href="https://github.com/pranikz/BreastCancer"
+          tags={["React", "TailwindCSS"]}
         />
 
         <a
@@ -76,7 +76,12 @@ export default function projects() {
             </svg>
           </span>
         </a>
-
+        <ProjectCard
+          title="More projects coming soon.."
+          description="I get ideas all day 🙄, All of them are updated here as soon as I start working on them."
+          href="#"
+          icon="more"
+        />
         {/* 🎶 A music streaming website (like spotify) built using PHP, HTML/CSS, AJAX, JS, jQuery, JSON, mySQL and more. */}
         <Contact />
       </div>
