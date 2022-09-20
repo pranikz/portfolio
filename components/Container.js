@@ -52,32 +52,7 @@ export default function Container(props) {
     {
       name: "Blog",
       link: "/blog",
-    },
-
-    {
-      name: "Snippets",
-      link: "/snippets",
-    },
-    {
-      name: "Resources",
-      link: "/resources",
-    },
-    {
-      name: "Freelancing",
-      link: "/freelance",
-    },
-    {
-      name: "Box Shadows",
-      link: "/boxshadows",
-    },
-    {
-      name: "FreeCodeCamp",
-      link: "/freecodecamp",
-    },
-    {
-      name: "Dashboard",
-      link: "/dashboard",
-    },
+    }
   ];
 
   return (
