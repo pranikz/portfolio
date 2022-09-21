@@ -91,7 +91,7 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Recent Blogs
         </h3>
-        Comming soon 🏎️
+        Coming soon 🏎️
         {/* <BlogPost
           title="Ace the Javascript Interview - Practical questions to help you clear your next interview"
           summary="Ace your next Javascript Interview - Practice these topics in depth with examples and code snippets."
