@@ -41,7 +41,7 @@ export default function Blog({ posts }) {
           Blog
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          {`I've been programming for almost 6 years now. Throughout this year, I've worked with various technologies. I'm here to share just that.
+          {`I've been programming for almost 8 years now. Throughout this year, I've worked with various technologies. I'm here to share just that.
             
             Use the search below to filter by title.`}
         </p>
