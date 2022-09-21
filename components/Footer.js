@@ -30,6 +30,9 @@ export default function Footer() {
               Projects
             </a>
           </Link>
+          <Link href="/uses">
+            <a className="text-gray-500 hover:text-gray-600 transition">Uses</a>
+          </Link>
           <ExternalLink href="https://pranikz.netlify.app/static/images/PratyushMResume.pdf">
             Resume
           </ExternalLink>
@@ -60,6 +63,12 @@ export default function Footer() {
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="__blank">
           &nbsp; ❤️
         </a>
+      </p>
+      <p className="flex flex-row text-gray-400">
+        Inspired by &nbsp;
+        <a href="https://leerob.io" target="__blank">
+          Leerob.io
+        </a>{" "}
       </p>
     </footer>
   );

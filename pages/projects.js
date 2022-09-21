@@ -27,7 +27,7 @@ export default function projects() {
           while you're here. <br />I write about technology, learning and memes.
         </h2>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
-          Full-Stack
+          Web apps and other 
         </h3>
 
         <ProjectCard
@@ -54,12 +54,12 @@ export default function projects() {
           title="BreastCancer Analysis"
           description="The goal was to predict the 'severity' of the cancer by feeding to a Recurrent Neural Network 30 important characteristics(ex: radius_mean, texture_mean, perimeter_mean) variables. The are 30 independent variables (excluding the 'id' column) and one categorical dependent variable 'diagnosis'. I've decided not to perform Exploratory Data Analysis because, the main priority was to build a decent Recurrent Neural Network Classifier to predict the severity of the cancer."
           href="https://github.com/pranikz/BreastCancer"
-          tags={["React", "TailwindCSS"]}
+          tags={["Machine Learning", "Python"]}
         />
 
         <a
           href="https://github.com/pranikz"
-          className="border flex flex-row items-center justify-center mx-auto rounded-md dark:text-gray-300 px-4 py-2 text-gray-800"
+          className="border flex mb-4 flex-row items-center justify-center mx-auto rounded-md dark:text-gray-300 px-4 py-2 text-gray-800"
         >
           See all at{" "}
           <span>
