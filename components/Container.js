@@ -44,7 +44,7 @@ export default function Container(props) {
     },
     {
       name: "Resume",
-      link: "https://pranikz.netlify.app/static/images/PratyushMResume.pdf",
+      link: "https://pranikz.netlify.app/resume.pdf",
     },
   ];
   const mobileLinks = [
@@ -80,7 +80,10 @@ export default function Container(props) {
           property="og:url"
           content={`https://pranikz.netlify.app${router.asPath}`}
         />
-        <link rel="canonical" href={`https://pranikz.netlify.app${router.asPath}`} />
+        <link
+          rel="canonical"
+          href={`https://pranikz.netlify.app${router.asPath}`}
+        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pratyush Mahapatra" />
         <meta property="og:description" content={meta.description} />
