@@ -1,6 +1,5 @@
-
-import Container from 'components/Container';
-import Image from 'next/future/image';
+import Container from "components/Container";
+import Image from "next/future/image";
 
 export default function Uses() {
   return (
@@ -19,7 +18,7 @@ export default function Uses() {
         <Image
           className="rounded-lg"
           alt={`My computer desk`}
-          src={`/static/images/setup.jpg`}
+          src={`/static/setup.jpg`}
           width={2164 / 2}
           height={1546 / 2}
           priority
