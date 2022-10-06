@@ -76,7 +76,7 @@ export default function Home() {
                 className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none dark:text-gray-300 dark:hover:text-gray-600"
                 target="__blank"
               >
-                <LinkPreview url="https://pranikz.netlify.app/giphy.gif">
+                <LinkPreview url="https://pranikz.netlify.app/meme.jpg">
                   <span className=" text-blue-500 dark:text-blue-500">
                     Memes
                   </span>
@@ -90,7 +90,7 @@ export default function Home() {
             className="md:flex hidden md:w-1/4 flex-col relative"
             target="__blank"
           >
-            <div className="absolute w-full h-full rounded-full transform scale-110 shadow-xl bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500" />
+            <div className="absolute w-full h-full rounded-full transform scale-110 shadow-xl bg-gradient-to-r from-red-300 via-red-400 to-red-500" />
             <img
               src="avatar-new.png"
               className="rounded-full max-w-[200px]  z-0"
