@@ -13,7 +13,6 @@ import { useIsFontReady } from "@/lib/useIsFontReady";
 import { LinkPreview } from "@/components/LinkPreview";
 import { useTheme } from "next-themes";
 
-
 export default function Home() {
   const [colors, setColors] = useState([]);
   // const [tempInterval, setTempInterval] = useState(null);
@@ -44,9 +43,9 @@ export default function Home() {
 
             <h2 className="text-gray-600 dark:text-gray-400 mb-16 mt-4 font-light tracking-wide leading-normal">
               🖥 I’m a developer, writer, and a creator. <br />
-              🗒 I work at{" "}
+              🗒 I am currently{" "}
               <span className="font-bold">
-                <span className="text-blue-500">Mikelegal</span>
+                <span className="text-red-500">Looking for opportunities</span>
               </span>{" "}
               as a{" "}
               <span className="dark:text-white font-bold">
@@ -72,7 +71,17 @@ export default function Home() {
                   </span>
                 </LinkPreview>
               </a>{" "}
-              about technology, learning and memes.
+              about technology, learning and{" "}
+              <a
+                className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none dark:text-gray-300 dark:hover:text-gray-600"
+                target="__blank"
+              >
+                <LinkPreview url="https://pranikz.netlify.app/giphy.gif">
+                  <span className=" text-blue-500 dark:text-blue-500">
+                    Memes
+                  </span>
+                </LinkPreview>
+              </a>{" "}
             </h2>
           </div>
 
