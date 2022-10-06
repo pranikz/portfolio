@@ -53,7 +53,7 @@ export default function Footer() {
       <p className="flex flex-row text-gray-400">
         Built with &nbsp;
         <a href="https://nextjs.org" target="__blank">
-          <img src="/logos/nextjs.svg" className="h-6 w-6 mx-1" />
+          <img src="/logos/nextjs.svg" className="h-6 w-6 mx-1 dark:invert-0" />
         </a>{" "}
         &nbsp;
         <a href="https://tailwindcss.com" target="__blank">

@@ -18,7 +18,7 @@ export default function Uses() {
         <Image
           className="rounded-lg"
           alt={`My computer desk`}
-          src={`/static/setup.jpg`}
+          src={`/static/images/setup.jpg`}
           width={2164 / 2}
           height={1546 / 2}
           priority
@@ -56,6 +56,7 @@ export default function Uses() {
           </ul>
           <h3 id="other-tech">Other Tech</h3>
           <ul>
+            <li>iPhone 13</li>
             <li>Mi 10T Pro</li>
             <li>Samsung Galaxy Tab S6 lite </li>
             <li>Google Home Mini</li>
