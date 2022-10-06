@@ -18,7 +18,7 @@ export default function Uses() {
         <Image
           className="rounded-lg"
           alt={`My computer desk`}
-          src={`/static/images/setup.jpg`}
+          src="https://res.cloudinary.com/dg6y2dtpl/image/upload/v1665064347/setup_ipqyfj.jpg"
           width={2164 / 2}
           height={1546 / 2}
           priority
