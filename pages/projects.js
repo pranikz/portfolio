@@ -40,7 +40,7 @@ export default function projects() {
           title="Mern Dairy"
           description="Note taking app which saves your thoughts securely over cloud! a full Note app with instant updates on dashboard using A Custom built CRUD API with nodeJS and
           expressJS and ReactJS, Redux and Tailwind on the Frontend "
-          href="https://github.com/pranikz/MERN-dairy"
+          href="https://merndairy-frontend.vercel.app/"
           tags={["React", "TailwindCSS"]}
         />
         <ProjectCard
