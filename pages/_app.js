@@ -4,9 +4,9 @@ import { ThemeProvider } from "next-themes";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "@/lib/gtag";
+import NextNProgress from "nextjs-progressbar";
 
 import MDXComponents from "@/components/MDXComponents";
-
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -21,11 +21,14 @@ function MyApp({ Component, pageProps }) {
   }, [router.events]);
 
   return (
-    <ThemeProvider attribute="class">
-      <MDXProvider components={MDXComponents}>
-        <Component {...pageProps} />
-      </MDXProvider>
-    </ThemeProvider>
+    <>
+      <NextNProgress color="#ef4444" />
+      <ThemeProvider attribute="class">
+        <MDXProvider components={MDXComponents}>
+          <Component {...pageProps} />
+        </MDXProvider>
+      </ThemeProvider>
+    </>
   );
 }
 

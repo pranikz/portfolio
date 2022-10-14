@@ -59,7 +59,7 @@ export default function projects() {
 
         <a
           href="https://github.com/pranikz"
-          className="border flex mb-4 flex-row items-center justify-center mx-auto rounded-md dark:text-gray-300 px-4 py-2 text-gray-800"
+          className="border dark:border-indigo-500 dark:drop-shadow-xl flex mb-4 flex-row items-center justify-center mx-auto rounded-md dark:text-gray-300 px-4 py-2 text-gray-800"
         >
           See all at{" "}
           <span>

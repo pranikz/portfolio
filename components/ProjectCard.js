@@ -273,7 +273,7 @@ export default function ProjectCard({ title, description, href, icon, tags }) {
                 {tags?.map((tag, idx) => (
                   <p
                     key={idx}
-                    className={`leading-5 dark:border text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs italic bg-gray-50  mr-2`}
+                    className={`leading-5 bg-teal-100 dark:border text-gray-700 dark:text-gray-300 dark:bg-teal-900 rounded-full text-xs italic   mr-2 px-2`}
                   >
                     {tag}
                   </p>

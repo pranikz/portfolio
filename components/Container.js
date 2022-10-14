@@ -105,7 +105,7 @@ export default function Container(props) {
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="bg-gray-200 dark:bg-gray-800 rounded p-3 h-10 w-10"
+          className="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           {mounted && (
@@ -134,7 +134,7 @@ export default function Container(props) {
             </svg>
           )}
         </button>
-        <div className="hidden sm:block">
+        <div className="hidden sm:block rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
           <Desktop
             links={links}
             hoveredIndex={hoveredIndex}
@@ -150,6 +150,7 @@ export default function Container(props) {
         id="skip"
         className="flex flex-col justify-center bg-white dark:bg-black px-8 text-gray-900 dark:text-gray-100"
       >
+        
         {children}
         <Footer />
       </main>
@@ -262,12 +263,12 @@ export const Desktop = ({ links, hoveredIndex, setHoveredIndex }) => {
           <a
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-            className="relative rounded-lg px-1 py-1 sm:px-4 sm:py-2 text-sm text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900"
+            className="relative rounded-lg px-3 inline-block py-2 text-sm text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900"
           >
             <AnimatePresence>
               {hoveredIndex === index && (
                 <motion.span
-                  className="absolute inset-0 rounded-lg bg-gray-100"
+                  className="absolute inset-0 transform bg-gray-50 dark:bg-zinc-800"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -279,7 +280,7 @@ export const Desktop = ({ links, hoveredIndex, setHoveredIndex }) => {
               )}
             </AnimatePresence>
 
-            <span className="relative z-10">{navLink.name}</span>
+            <span className="relative z-10 text-gray-800 dark:text-gray-50">{navLink.name}</span>
           </a>
         </NextLink>
       ))}
